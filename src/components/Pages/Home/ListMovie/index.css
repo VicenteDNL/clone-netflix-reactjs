@@ -1,0 +1,50 @@
+.list-movie{
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.list-movie:hover .button-left-movie{
+    opacity: 1;
+}
+.list-movie:hover .button-right-movie{
+    opacity: 1;
+}
+
+.movie{
+    border-radius: 0.5em;
+    height: 320px;
+    width: 200px;
+    transform: scale(0.9);
+    display: inline-block;
+    transition: all ease 0.1s;
+    cursor: pointer;   
+}
+
+.movie:hover{
+    transform: scale(1);
+}
+
+.button-left-movie, .button-right-movie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(27, 27, 27, 0.39);
+    z-index: 999;
+    height: 380px;
+    width: 60px;
+    transform: scale(0.9);
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+
+.button-left-movie{
+    border-radius: 0 0.5em 0.5em 0;
+    left: 0;
+}
+
+.button-right-movie{
+    background-color: rgba(27, 27, 27, 0.39);
+    right: 0;
+}

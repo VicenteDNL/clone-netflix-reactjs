@@ -1,0 +1,14 @@
+.login-section{
+    height: 100vh;
+    width: 100vw;
+    position: relative
+}
+
+
+.login-body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.609);
+}

@@ -1,0 +1,24 @@
+.browser-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.browser-title{
+    font-size: 35pt;
+}
+
+.browser-card-container{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.MuiButton-root{
+    color: rgba(255, 255, 255, 0.644)!important;
+}
+
+.remove-decoretion{
+    text-decoration: none;
+}

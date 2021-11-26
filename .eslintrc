@@ -1,0 +1,87 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb",
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "simple-import-sort",
+    "jsx-a11y",
+    "prettier",
+    "@typescript-eslint",
+    "import",
+    "react",
+    "react-hooks"
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "rules": {
+    "camelcase": 0,
+    "no-plusplus": 0,
+    "no-use-before-define": 0,
+    "arrow-body-style": ["warn", "as-needed"],
+    "arrow-parens": ["warn", "as-needed"],
+    "arrow-spacing": "warn",
+    "no-async-promise-executor": "warn",
+    "react/react-in-jsx-scope": 0,
+    "react/prop-types": 0,
+    "no-shadow": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "no-unused-expressions": 0,
+    "import/prefer-default-export": 0,
+    "import/no-duplicates": 0,
+    "import/no-cycle": 0,
+    "react/jsx-props-no-spreading": 0,
+    "simple-import-sort/imports": "error",
+    "react/jsx-one-expression-per-line": 0,
+    "@typescript-eslint/no-non-null-asserted-optional-chain": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "react/require-default-props": 0,
+    "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["invalidHref", "preferButton"]
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "react/jsx-curly-newline": 0,
+    "react/jsx-closing-bracket-location": [
+      1,
+      {
+        "selfClosing": "line-aligned",
+        "nonEmpty": "after-props"
+      }
+    ],
+    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }]
+  }
+}

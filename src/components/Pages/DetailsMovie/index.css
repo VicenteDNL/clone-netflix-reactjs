@@ -1,0 +1,44 @@
+.container-details-movie{
+    height: 700px;
+}
+
+.gost-details{
+   
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #141414f8 30%, transparent), 
+    linear-gradient(to top, #141414f8 20%, transparent)
+}
+
+.infos-movie-details{
+    width: 60%;
+    padding: 30px 0 0 30px;
+}
+
+.infos-movie-details h1{
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 36pt!important;
+    font-weight: bold;
+}
+
+.infos-movie-details p{
+    font-size: 14pt!important;
+}
+
+.infos-movie-details span{
+    font-size: 12pt!important;
+}
+
+.movie-relevance{
+    font-weight: bold;
+    color: #46d369;
+}
+.movie-release_date{
+    font-weight: bold;
+    padding: 0 12px 0 12px;
+}
+
+.movie-runt{
+    padding: 0 12px 0 12px;
+}
